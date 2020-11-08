@@ -1,0 +1,48 @@
+	body{
+	background-color:#34495e;
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif; 
+}
+
+
+
+.box{
+	width: 300px;
+	padding: 40px;
+	position:absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	background: #1C1C1C;
+}
+
+.box h1{
+	color: aliceblue;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+
+.box button[type=submit]
+{
+	background:none ;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	padding: 14px 60px;
+	outline: none;
+	color: aliceblue;
+	transition: 0.25s;
+	border: 2px solid #B7007C;
+	cursor: pointer;
+	
+}
+
+.box button[type=submit]:hover{
+	background: #E6C9CA;
+	color: #000000;
+	
+	
+}

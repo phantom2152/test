@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#34495e;
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif; 
+}
+
+
+
+
+
+.box{
+	width: 300px;
+	padding: 40px 60px 40px 40px;
+	position:absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	background: #1C1C1C;
+}
+.box h1{
+	color: aliceblue;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+
+.box input[type=text], .box input[type=password]
+{
+border:2px solid #091A81;
+	background:none ;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: aliceblue;
+	border-radius: 25px;
+	transition: 0.15s;
+}
+
+
+.box input[type=text]:focus, .box input[type=password]:focus{
+	width: 300px;
+	border: 2px solid #00C23D; 
+}
+
+.box input[type=text]:hover, .box input[type=password]:hover{
+	width: 300px;
+	border: 2px solid #00C23D; 
+}
+
+
+
+
+
+.box button[type=submit]
+{
+	background:none ;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	padding: 14px 40px;
+	outline: none;
+	color: aliceblue;
+	border-radius: 25px;
+	transition: 0.25s;
+	border: 2px solid #B7007C;
+	cursor: pointer;
+	
+}
+
+.box button[type=submit]:hover{
+	background: #E6C9CA;
+	color: #000000;
+	
+	
+}
+
